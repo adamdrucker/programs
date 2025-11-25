@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Decrypt a message!</title>
+	</head>
+	<body>
+		<table style="width:20%", border=1px solid black>
+			<tr>
+				<th>Decrypted message</th>                
+			</tr>
+			<tr>
+				<td>{{message}}</td>                
+			</tr>
+		</table>
+		
+		<!-- POST method is not allowed, ROUTE and GET return a "?" in the URL -->
+		<form action="/message" method="get">
+			<input value="Encrypt another message" type="submit">
+		</form>
+		
+	</body>
+</html>

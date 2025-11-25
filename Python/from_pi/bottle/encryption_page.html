@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Encrypt a message!</title>
+	</head>
+	<body>
+		<table style="width:20%", border=1px solid black>
+			<tr>
+				<th>Sharable link</th>
+				<th>Algortihm</th>
+			</tr>
+			<tr>
+				<td><a href={{link}} id="link">{{link}}</a></td>
+				<td>{{e_method}}</td>
+			</tr>           
+		</table>
+		<button onclick=copyFunc("{{link}}")>Copy link</button>
+		
+		<!-- POST method is not allowed, ROUTE and GET return a "?" in the URL -->
+		<!-- The form below currently places the button under the COPY button-->
+		<br>
+		<form action="/message" method="get" >
+			<input value="Encrypt another message" type="submit">
+		</form>
+		
+		
+	</body>
+</html>

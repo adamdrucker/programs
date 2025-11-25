@@ -1,0 +1,17 @@
+adrucker|2021-10-13 09:00|2021-10-13 09:15|0.25|TS/EMAIL|Y|N|checking mail, logs, slack
+adrucker|2021-10-13 09:15|2021-10-13 09:30|0.25|ENGAGING|Y|N|checking on tsm backups
+adrucker|2021-10-13 09:30|2021-10-13 10:15|0.75|NEUHPC|Y|N|sysadmin meeting, checking sw inv in row 3
+adrucker|2021-10-13 10:15|2021-10-13 10:45|0.5|ENGAGING|Y|N|checking out down nodes
+adrucker|2021-10-13 10:45|2021-10-13 11:15|0.5|SATORI|Y|N|checking logs, gpfs, noc, tickets
+adrucker|2021-10-13 11:15|2021-10-13 11:30|0.25|ENGAGING|Y|N|checking on disk in node375
+adrucker|2021-10-13 11:30|2021-10-13 12:00|0.5|SATORI|Y|N|going through logs
+adrucker|2021-10-13 12:00|2021-10-13 12:15|0.25|ENGAGING|Y|N|checking tickets, responding
+adrucker|2021-10-13 12:15|2021-10-13 13:00|0.75|TS|Y|N|python gitlab cli
+adrucker|2021-10-13 13:00|2021-10-13 13:30|0.5|LUNCH|N|N|Lunch
+adrucker|2021-10-13 13:30|2021-10-13 14:15|0.75|TS|Y|N|writing some documentation for gitlab cli, working with it more
+adrucker|2021-10-13 14:15|2021-10-13 14:45|0.5|TS|Y|N|meet with sb
+adrucker|2021-10-13 14:45|2021-10-13 15:00|0.25|SATORI|Y|N|answering some tickets
+adrucker|2021-10-13 15:00|2021-10-13 15:15|0.25|TS|Y|N|adding gitlab cli notes to ts doc gitlab
+adrucker|2021-10-13 15:15|2021-10-13 15:45|0.5|TS|Y|N|creating exxact account, gathering information to open support ticket
+adrucker|2021-10-13 15:45|2021-10-13 16:00|0.25|HOLYOKE|Y|N|visit to staging
+adrucker|2021-10-13 16:00|2021-10-13 16:15|0.25|SATORI|Y|N|opening ticket with exxact for node2022

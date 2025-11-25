@@ -1,0 +1,13 @@
+adrucker|2021-09-21 09:00|2021-09-21 09:45|0.75|SATORI|Y|N|starting rhel8 upgrades on a few nodes, debugging failed upgrades from yesterday
+adrucker|2021-09-21 09:45|2021-09-21 11:00|1.25|SATORI|Y|N|checking logs, gpfs, noc, tickets
+adrucker|2021-09-21 11:00|2021-09-21 12:00|1.0|SATORI|Y|N|continuing node upgrades
+adrucker|2021-09-21 12:00|2021-09-21 12:15|0.25|TS|Y|N|ts west hpc meeting
+adrucker|2021-09-21 12:15|2021-09-21 12:30|0.25|SATORI|Y|N|rebooting node0044, reattempting install
+adrucker|2021-09-21 12:30|2021-09-21 13:15|0.75|LUNCH|N|N|Lunch
+adrucker|2021-09-21 13:15|2021-09-21 13:45|0.5|SATORI|Y|N|setting more nodes for upgrade
+adrucker|2021-09-21 13:45|2021-09-21 14:30|0.75|SATORI|Y|N|working on updating mailing list
+adrucker|2021-09-21 14:30|2021-09-21 15:00|0.5|NEUHPC|Y|N|checking for gpu serial number in node in r3-pc
+adrucker|2021-09-21 15:00|2021-09-21 15:30|0.5|SATORI|Y|N|finishing node upgrades
+adrucker|2021-09-21 15:30|2021-09-21 16:15|0.75|HOLYOKE|Y|N|helping to remove brocade switches from r5-pa
+adrucker|2021-09-21 16:15|2021-09-21 16:45|0.5|SATORI|Y|N|fixing up the last of the amd nodes and adding back to slurm
+adrucker|2021-09-21 16:45|2021-09-21 17:00|0.25|TS|Y|N|a bit on my hours counter script

@@ -1,0 +1,12 @@
+adrucker|2021-09-15 09:00|2021-09-15 09:15|0.25|TS/EMAIL|Y|N|checking mail, logs, slack
+adrucker|2021-09-15 09:15|2021-09-15 09:30|0.25|SATORI|Y|N|checking gpfs, noc, tickets
+adrucker|2021-09-15 09:30|2021-09-15 10:00|0.5|NEUHPC|Y|N|sysadmin meeting
+adrucker|2021-09-15 10:00|2021-09-15 10:30|0.5|SATORI|Y|N|checking on down node, cleaning up unneeded files in /root on service0005
+adrucker|2021-09-15 10:30|2021-09-15 11:30|1.0|NEUHPC|Y|N|tracing cables in r3-pb for edmund yeh run
+adrucker|2021-09-15 11:30|2021-09-15 12:00|0.5|SATORI|Y|N|checking logs
+adrucker|2021-09-15 12:00|2021-09-15 12:45|0.75|NEUHPC|Y|N|getting cables from staging and running edmung yeh box to sw in 3B12
+adrucker|2021-09-15 12:45|2021-09-15 13:00|0.25|SATORI|Y|N|ticket replies with ibm
+adrucker|2021-09-15 13:00|2021-09-15 13:30|0.5|ENGAGING|Y|N|checking on tsm chroots, node statuses
+adrucker|2021-09-15 13:30|2021-09-15 14:00|0.5|LUNCH|N|N|Lunch
+adrucker|2021-09-15 14:00|2021-09-15 15:30|1.5|C3DDB|Y|N|debugging down nodes
+adrucker|2021-09-15 15:30|2021-09-15 17:00|1.5|SATORI|Y|N|working with docker to help with a ticket

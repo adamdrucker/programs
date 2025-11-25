@@ -1,0 +1,13 @@
+adrucker|2021-10-01 10:15|2021-10-01 10:45|0.5|NEUHPC|Y|N|sysadmin meeting
+adrucker|2021-10-01 10:45|2021-10-01 11:00|0.25|TS/EMAIL|Y|N|checking mail, logs, slack
+adrucker|2021-10-01 11:00|2021-10-01 11:30|0.5|SATORI|Y|N|checking logs, gpfs, noc, tickets
+adrucker|2021-10-01 11:30|2021-10-01 11:45|0.25|ENGAGING|Y|N|checking on tsm chroots
+adrucker|2021-10-01 11:45|2021-10-01 12:30|0.75|SATORI|Y|N|researching, responding to ticket
+adrucker|2021-10-01 12:30|2021-10-01 12:45|0.25|HOLYOKE|Y|N|down to shipping
+adrucker|2021-10-01 12:45|2021-10-01 13:00|0.25|SATORI|Y|N|tickets
+adrucker|2021-10-01 13:00|2021-10-01 13:45|0.75|SATORI|Y|N|swapping out dimm's in two nodes
+adrucker|2021-10-01 13:45|2021-10-01 14:15|0.5|LUNCH|N|N|break
+adrucker|2021-10-01 14:15|2021-10-01 14:45|0.5|NEUHPC|Y|N|a bit more organizing of staging area cages
+adrucker|2021-10-01 14:45|2021-10-01 15:00|0.25|TS|Y|N|updating some notes
+adrucker|2021-10-01 15:00|2021-10-01 15:30|0.5|SATORI|Y|N|getting nodes 0007 and 0031 re-racked and booted
+adrucker|2021-10-01 15:30|2021-10-01 18:15|2.75|PTO/SICK|Y|N|minor sickness

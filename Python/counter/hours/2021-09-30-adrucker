@@ -1,0 +1,14 @@
+adrucker|2021-09-30 09:00|2021-09-30 09:45|0.75|TS/EMAIL|Y|N|checking mail, logs, slack, updating task list for today
+adrucker|2021-09-30 09:45|2021-09-30 11:00|1.25|SATORI|Y|N|checking logs, gpfs, noc, tickets
+adrucker|2021-09-30 11:00|2021-09-30 11:45|0.75|SATORI|Y|N|removing nvme from node0036 and attempting reinstall
+adrucker|2021-09-30 11:45|2021-09-30 12:00|0.25|SATORI|Y|N|researching, responding to ticket
+adrucker|2021-09-30 12:00|2021-09-30 12:15|0.25|TS|Y|N|smyl
+adrucker|2021-09-30 12:15|2021-09-30 12:30|0.25|HOLYOKE|Y|N|down to shipping
+adrucker|2021-09-30 12:30|2021-09-30 13:00|0.5|SATORI|Y|N|finishing node0036 reinstall
+adrucker|2021-09-30 13:00|2021-09-30 13:30|0.5|SATORI|Y|N|nvme back into node0036, rebooting and ensuring everything works
+adrucker|2021-09-30 13:30|2021-09-30 13:45|0.25|SATORI|Y|N|reading through logs
+adrucker|2021-09-30 13:45|2021-09-30 14:15|0.5|LUNCH|N|N|Lunch
+adrucker|2021-09-30 14:15|2021-09-30 14:30|0.25|ENGAGING|Y|N|checking on tsm chroots
+adrucker|2021-09-30 14:30|2021-09-30 15:30|1.0|C3DDB|Y|N|debugging some down nodes
+adrucker|2021-09-30 15:30|2021-09-30 16:45|1.25|NEUHPC|Y|N|reorganizing cages in staging
+adrucker|2021-09-30 16:45|2021-09-30 17:00|0.25|SATORI|Y|N|updating tickets

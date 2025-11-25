@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" href="styles.css" rel="stylesheet">
+		<title>Encrypt a message!</title>
+	</head>
+	<body>
+		<!-- Inline styling -->
+		<style>
+		body {
+			background-color: lightblue;
+			}
+		
+		input, select, textarea {
+			background-color: lightgrey;
+			padding: 8px 16px;
+			}
+			
+		input[type=submit] {
+			background-color: grey;
+			padding: 8px 16px;
+			}
+		
+		</style>
+		
+		<h2>Need to send a private message?</h2>
+		<h3>Enter it below and select an encryption method!</h3>
+		<form action="/encrypted" method="post">
+			<label for="message">Type your message below</label><br>
+            <input name="message" type="text" />
+            <input value="Encrypt message" type="submit" />
+			<p>
+			<label for="Encryption">Choose an algorithm:</label>
+			<br>
+			<select name="enc" method="post" id="enc">
+				<option value="{{algorithms[0]}}">{{algorithms[0]}}</option>
+				<option value="{{algorithms[1]}}">{{algorithms[1]}}</option>
+				<option value="{{algorithms[2]}}">{{algorithms[2]}}</option>
+			</select>
+			</p>
+		</form>
+		<br>
+		<hr size=2>
+		<p><b>{{algorithms[0]}}</b>{{alg_desc[0]}}</p>
+		<p><b>{{algorithms[1]}}</b>{{alg_desc[1]}}</p>
+		<p><b>{{algorithms[2]}}</b>{{alg_desc[2]}}</p>
+	</body>
+</html>

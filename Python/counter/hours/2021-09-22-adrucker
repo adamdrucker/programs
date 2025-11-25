@@ -1,0 +1,10 @@
+adrucker|2021-09-22 09:00|2021-09-22 10:30|1.5|PTO|Y|N|doctor appt
+adrucker|2021-09-22 10:30|2021-09-22 10:45|0.25|TS/EMAIL|Y|N|checking mail, logs, slack
+adrucker|2021-09-22 10:45|2021-09-22 12:15|1.5|SATORI|Y|N|checking logs, gpfs, noc, tickets, down node0036
+adrucker|2021-09-22 12:15|2021-09-22 12:30|0.25|ENGAGING|Y|N|checking tsm logs and backups
+adrucker|2021-09-22 12:30|2021-09-22 13:00|0.5|ENGAGING|Y|N|debugging down node 1254
+adrucker|2021-09-22 13:00|2021-09-22 13:30|0.5|LUNCH|N|N|Lunch
+adrucker|2021-09-22 13:30|2021-09-22 14:00|0.5|HOLYOKE|Y|N|chat with khelm
+adrucker|2021-09-22 14:00|2021-09-22 14:15|0.25|NEUHPC|Y|N|call with greg
+adrucker|2021-09-22 14:15|2021-09-22 16:15|2.0|NEUHPC|Y|N|locating switches in shipping/staging, getting a few racked
+adrucker|2021-09-22 16:15|2021-09-22 17:00|0.75|TS|Y|N|looking over whois-active client list  and into gitlab cli

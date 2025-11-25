@@ -1,0 +1,17 @@
+adrucker|2021-09-23 09:00|2021-09-23 09:15|0.25|TS/EMAIL|Y|N|checking mail, logs, slack
+adrucker|2021-09-23 09:15|2021-09-23 09:30|0.25|SATORI|Y|N|checking logs, gpfs, noc
+adrucker|2021-09-23 09:30|2021-09-23 10:00|0.5|SATORI|Y|N|working on docker build to help on a ticket
+adrucker|2021-09-23 10:00|2021-09-23 11:00|1.0|TS|Y|N|tasks with interns in machine room
+adrucker|2021-09-23 11:00|2021-09-23 11:15|0.25|ENGAGING|Y|N|debugging ib issue on a node
+adrucker|2021-09-23 11:15|2021-09-23 11:30|0.25|NEUHPC|Y|N|checking out power supply issues in r3-pc
+adrucker|2021-09-23 11:30|2021-09-23 12:00|0.5|SATORI|Y|N|working more with container for ticket
+adrucker|2021-09-23 12:00|2021-09-23 12:15|0.25|TS|Y|N|smyl
+adrucker|2021-09-23 12:15|2021-09-23 13:15|1.0|NEUHPC|Y|N|racking ib switches, checking more switches in staging
+adrucker|2021-09-23 13:15|2021-09-23 13:45|0.5|LUNCH|N|N|Lunch
+adrucker|2021-09-23 13:45|2021-09-23 14:00|0.25|SATORI|Y|N|importing docker container to satori to test for a ticket
+adrucker|2021-09-23 14:00|2021-09-23 14:15|0.25|NEUHPC|Y|N|more neu switch racking
+adrucker|2021-09-23 14:15|2021-09-23 14:45|0.5|SATORI|Y|N|docker container ticket
+adrucker|2021-09-23 14:45|2021-09-23 15:00|0.25|TS|Y|N|bash demo with morgan
+adrucker|2021-09-23 15:00|2021-09-23 16:00|1.0|TS|Y|N|working with gitlab cli
+adrucker|2021-09-23 16:00|2021-09-23 16:15|0.25|SATORI|Y|N|ticket response
+adrucker|2021-09-23 16:15|2021-09-23 17:00|0.75|TS|Y|N|more gitlab cli

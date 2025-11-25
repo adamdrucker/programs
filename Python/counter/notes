@@ -1,0 +1,17 @@
+`ls -ltr | grep '^-'` will show only files, most recent at bottom
+
+# # how to strip off username at end and have just the date YYYY-MM-DD
+# # list all files in dir
+# list_of_files = glob.glob(f'{hours_dir}')
+# # find latest file
+# latest_file = max(list_of_files, key=os.path.getctime)
+# # get base filename
+# lf = os.path.basename(f"{latest_file}")
+# print(f"Latest file: {lf}")
+
+# another way to find latest file
+# [-1] == latest file, [-2] second oldest and so on
+# latest_file = sorted(glob.iglob(f'{hours_dir}'), key=os.path.getctime)[-1]
+# lf = os.path.basename(f"{latest_file}")
+# one liner
+#lf = os.path.basename(sorted(glob.iglob(f'{hours_dir}'), key=os.path.getctime)[counter])

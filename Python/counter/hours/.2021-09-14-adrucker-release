@@ -1,0 +1,14 @@
+adrucker|2021-09-14 08:30|2021-09-14 08:45|0.25|TS/EMAIL|Y|N|checking mail, logs, slack
+adrucker|2021-09-14 08:45|2021-09-14 09:00|0.25|ENGAGING|Y|N|checking on tsm chroots, node statuses
+adrucker|2021-09-14 09:00|2021-09-14 09:30|0.5|TS|Y|N|chat with sb
+adrucker|2021-09-14 09:30|2021-09-14 10:30|1.0|SATORI|Y|N|checking logs, gpfs, noc, tickets
+adrucker|2021-09-14 10:30|2021-09-14 10:45|0.25|ENGAGING|Y|N|checking on nodes and tickets
+adrucker|2021-09-14 10:45|2021-09-14 11:00|0.25|NEUHPC|Y|N|checking on yeh server and switches in 3-b for greg
+adrucker|2021-09-14 11:00|2021-09-14 11:30|0.5|SATORI|Y|N|shipping + replacing failed disk
+adrucker|2021-09-14 11:30|2021-09-14 12:15|0.75|TS|Y|N|ts west hpc meeting
+adrucker|2021-09-14 12:15|2021-09-14 13:00|0.75|LUNCH|N|N|Lunch
+adrucker|2021-09-14 13:00|2021-09-14 13:15|0.25|HOLYOKE|Y|N|checking on node for tig/csail
+adrucker|2021-09-14 13:15|2021-09-14 13:30|0.25|SATORI|Y|N|working on a ticket
+adrucker|2021-09-14 13:30|2021-09-14 14:15|0.75|TS|Y|N|looking into gitlab cli and aristotle clients whois-active
+adrucker|2021-09-14 14:15|2021-09-14 15:45|1.5|TS|Y|N|tour and talk with morgan and interns
+adrucker|2021-09-14 15:45|2021-09-14 17:00|1.25|SATORI|Y|N|investigating nodes with bad memory, opening tickets with ibm, pulling reports

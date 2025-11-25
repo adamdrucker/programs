@@ -1,0 +1,11 @@
+adrucker|2021-09-27 09:00|2021-09-27 09:30|0.5|TS/EMAIL|Y|N|checking mail, logs, slack
+adrucker|2021-09-27 09:30|2021-09-27 10:00|0.5|NEUHPC|Y|N|sysadmin meeting
+adrucker|2021-09-27 10:00|2021-09-27 12:30|2.5|SATORI|Y|N|checking logs, gpfs, noc, tickets
+adrucker|2021-09-27 12:30|2021-09-27 12:45|0.25|TS|Y|N|reading a little about gpfs
+adrucker|2021-09-27 12:45|2021-09-27 13:15|0.5|SATORI|Y|N|checking out gpfs issue with node2003
+adrucker|2021-09-27 13:15|2021-09-27 14:00|0.75|SATORI|Y|N|ticket + down node
+adrucker|2021-09-27 14:00|2021-09-27 14:30|0.5|LUNCH|N|N|Lunch
+adrucker|2021-09-27 14:30|2021-09-27 16:00|1.5|SATORI|Y|N|stress testing gpu's on node2022 due to repetitive crashes
+adrucker|2021-09-27 16:00|2021-09-27 16:15|0.25|ENGAGING|Y|N|checking on tsm chroots
+adrucker|2021-09-27 16:15|2021-09-27 16:30|0.25|SATORI|Y|N|ibm ticket
+adrucker|2021-09-27 16:30|2021-09-27 17:00|0.5|SATORI|Y|N|more tickets
