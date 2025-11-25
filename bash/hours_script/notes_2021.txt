@@ -1,0 +1,14 @@
+With the new Linux box, this script should be adjusted for tasks that go
+beyond the normal Intern tasks of 2020.
+
+1. Find out how to do multiple entries for the same day without
+being prompted for the date multiple times
+
+2. Mirror the edits in the Chromebook version to ask for paycode
+	2a. Still use the lunch question, but if 'N' ask for paycode
+
+3. Add question about creating email with finalized entries?
+	3a. After hitting 'q' it should ask if I want to send an email
+	3b. Will need to open a new message in TBird and paste the most recent doc?
+
+

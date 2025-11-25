@@ -1,0 +1,59 @@
+Tiny C Program Ideas for a Novice
+
+1. Hello, World! (Classic Start) DONE
+
+	Print "Hello, World!" to the terminal.
+
+	Teaches: compiling, running, using printf.
+
+2. Echo Input
+
+	Ask the user for their name, then print it back.
+
+	Like Bash’s read or Python’s input().
+
+	Teaches: scanf, basic I/O.
+
+3. Line Counter (Mini wc -l)
+
+	Open a text file and count the number of lines.
+
+	Similar to Bash: wc -l file.txt.
+
+	Teaches: file handling (fopen, fgetc, fclose).
+
+4. Simple Calculator
+
+	Take two numbers and add/subtract/multiply/divide them.
+
+	Like a very basic Python REPL.
+
+	Teaches: arithmetic, branching (if/switch).
+
+5. Temperature Converter
+
+	Convert Celsius ↔ Fahrenheit.
+
+	A tiny exercise in formulas, input, and output.
+
+6. Guess the Number
+
+	Program picks a random number, user keeps guessing until they get it right.
+
+	Like a text-based game.
+
+	Teaches: loops, conditionals, random numbers.
+
+7. Mini "ls" (Directory Listing)
+
+	Print the names of files in the current directory.
+
+	Like running ls.
+
+	Teaches: using libraries (dirent.h).
+
+8. Reverse a String
+
+	Ask the user for a word, print it backward.
+
+	Good first exposure to arrays and string handling.
