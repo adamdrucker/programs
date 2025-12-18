@@ -1,19 +1,15 @@
 #include <stdio.h>
 
 int main() {
+    printf("hello, ");
+    printf("world");
+    printf("\n");
 
-	/* this is my code below
-	this is the starting point */
-
-	int num_one = 6;
-	int num_two = 5;
-
-	int sum = num_one * num_two;
-
-	printf("Hello World!\n");
-	// numbers
-	printf("%i\n", num_one);
-	printf("%i\n", num_two);
-	printf("The numbers multiplied equals %i\n", sum);
-	return 0;
-	}
+    printf("\"test 1\"\n");
+    printf("\ttest 2 with a \ttab\t\n");
+    printf("testing out the \bbackspace\n");
+    /* \x prints the hex value of the characters
+    that follow */
+    printf("test 3 \x6e\x6f \n");
+    printf("test 4 \a \n");
+}
