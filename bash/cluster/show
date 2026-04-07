@@ -1,0 +1,2 @@
+
+scontrol show node $1

@@ -1,0 +1,53 @@
+# wrapper for long ipmitool commands
+
+host=$2
+
+while test $# -gt 0; do
+  case "$1" in
+    -h)
+      echo "-h	show brief help"
+      echo "-s	power stat"
+      echo "-c	power cycle"
+      echo "-d 	power off"
+      echo "-u	power on"
+      echo "-sel SEL elist"
+      exit 0
+    ;;
+    -s)
+      ipmitool -I lanplus -U root -P calvin -H $2.bmc power status
+      #ipmitool -I lanplus -U root -P calvin -H $2 power status
+      exit 0
+    ;;
+    -c)
+      squeue -w $2
+      echo "press [Enter] to power cycle"
+      read ANS
+      ipmitool -I lanplus -U root -P calvin -H $2.bmc power cycle
+      #ipmitool -I lanplus -U root -P calvin -H $2 power cycle
+      exit 0
+    ;;
+    -d)
+      ipmitool -I lanplus -U root -P calvin -H $2.bmc power off
+      #ipmitool -I lanplus -U root -P calvin -H $2 power off
+      exit 0
+    ;;
+    -u)
+      ipmitool -I lanplus -U root -P calvin -H $2.bmc power on
+      #ipmitool -I lanplus -U root -P calvin -H $2 power on
+      exit 0
+    ;;
+    -sel)
+      ipmitool -I lanplus -U root -P calvin -H $2.bmc sel elist
+      exit 0
+    ;;
+    *)
+      echo "You have entered an invalid flag, use -h for help"
+      exit 0
+    ;;
+  esac
+done
+
+while test $# -eq 0; do
+  echo "You have not passed in a flag, use -h for help"
+  exit 0
+done

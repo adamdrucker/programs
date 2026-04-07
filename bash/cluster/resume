@@ -1,0 +1,4 @@
+
+host=$1
+
+scontrol update state=resume node=$host

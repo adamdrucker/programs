@@ -1,0 +1,70 @@
+
+# underline func
+underline() { echo $1; echo "${1//?/${2:-=}}";}
+
+# list how many nodes are active, down, and %?
+partition_list=$(scontrol show partition | grep PartitionName | awk -F= '{print $2}' | sort -d)
+
+# sched_system_all jobs
+total_running=$(squeue -h -o %T | sort -d | uniq -c | awk '{print $1}' | sed -z 's/\n/,/g;s/,$/\n/g' | awk -F, '{print $2}')
+total_pending=$(squeue -h -o %T | sort -d | uniq -c | awk '{print $1}' | sed -z 's/\n/,/g;s/,$/\n/g' | awk -F, '{print $1}')
+#ssa8_pend=$(squeue -h -p sched_system_all_8 | grep -v "node" | wc -l)
+#ssa8_run=$(squeue -h -p sched_system_all_8 | grep node | wc -l)
+#scd_pend=$(squeue -h -p sched_cdrennan | grep -v "node" | wc -l)
+#scd_run=$(squeue -h -p sched_cdrennan | grep node | wc -l)
+
+
+# main
+
+echo "Queue statistics for $(date)"
+
+echo " "
+# sorted partition names
+underline "Current visible partitions ($(whoami))"
+scontrol show partition | grep PartitionName | awk -F= '{print $2}' | sort -d 
+
+# total current jobs on satori
+total_current_jobs=$(squeue -h | wc -l)
+echo " "
+underline "Current active/pending jobs on Engaging" 
+echo "Total: $total_current_jobs" | column -t
+
+# these two bits are broken
+# if there are zero pending jobs, things get weird
+#
+echo "Running: $total_running"
+echo "Pending: $total_pending" 
+echo " "
+#echo "sched_system_all_7: Running ($ssa_run)  | Pending ($ssa_pend)"
+#echo "sched_system_all_8: Running ($ssa8_run) | Pending ($ssa8_pend)"
+#echo "sched_cdrennan:     Running ($scd_run)  | Pending ($scd_pend)"
+
+
+# total jobs per qos
+echo " "
+underline "Current jobs by QoS"
+for i in $(squeue -h -o %q | sort | uniq);
+do
+  echo "$i: $(squeue -o %q | grep $i | wc -l)" | column -t | column
+done
+
+
+# jobs total by user
+echo " "
+underline "Current submitted jobs by user"
+squeue -h -o %u | sort -d | uniq -c | sort -r | awk '{print $2, $1}' | sort -t' ' -nrk 2,2 | sed 's/\(.*\) \(.*\)/\1 (\2)/' | column -t | column
+
+echo " "
+underline "Pending reasons by user"
+squeue -h -o %r,%u | uniq -c | grep -v "None" | grep -v "required" | awk -F, '{print $2, $1}' | awk '{print $3":", $2, $1}' | sed 's/\(.*\) \(.*\)/\1 (\2)/' | sort -nrk 2,2 | column -t
+
+# break line at end
+echo " "
+
+
+# ---
+# total_nodes_per_partition=$(scontrol show partition <name> | grep TotalNodes | awk '{print $3}' | awk -F= '{print $2}')
+# total pending by reason
+#squeue -h -o %r | uniq -c | grep -v "None" | sort -r | awk '{print $2, $1}' | sed 's/\(.*\) \(.*\)/\1 (\2)/' | column -t
+# this command makes a sorted csv list of all users with a running job
+# squeue -h -o %u | sort -d | sed -z 's/\n/,/g;s/,$/\n/g'

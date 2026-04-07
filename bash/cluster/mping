@@ -1,0 +1,34 @@
+# ping a host on eth, ipmi and ib
+
+host=$1
+
+# ping eth
+ping -c 1 $1 > /dev/null 2>&1
+if [ $? == 0 ]; then
+  echo ping inband OK
+else
+  echo ping inband FAIL
+fi
+
+# ping ib
+ping -c 1 $1.ib > /dev/null 2>&1
+if [ $? == 0 ]; then
+  echo ping ib OK
+else
+  echo ping ib FAIL
+fi
+
+# ping ipmi
+ping -c 1 $1.bmc > /dev/null 2>&1
+if [ $? == 0 ]; then
+  echo ping bmc OK
+else
+#  echo ping ipmi FAIL
+  ping -c 1 $1.outband > /dev/null 2>&1
+  if [ $? == 0 ]; then
+     echo ping outband OK
+  else
+     echo ping outband FAIL
+  fi
+fi
+

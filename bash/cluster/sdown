@@ -1,0 +1,5 @@
+
+host=$1
+reason=$2
+
+scontrol update state=down node=$host reason=$reason

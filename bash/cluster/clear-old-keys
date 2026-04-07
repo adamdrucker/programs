@@ -1,0 +1,9 @@
+SET=$1
+LIST=$(nodeset -e $SET)
+
+$echo $LIST
+
+for NODE in ${LIST[@]};do
+echo ${NODE}
+ssh-keygen -R ${NODE}
+done
