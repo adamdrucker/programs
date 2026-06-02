@@ -4,16 +4,16 @@ from selenium.webdriver.chrome.options import Options
 
 # credentials
 # consider storing these in an external file and importing them
-stTsUser = "admin"
-stTsPw = "SnitMern6"
+stTsUser = ""
+stTsPw = ""
 
-stGpfsUser = "admin"
-stGpfsPw = "Q0DhR2RaKO9QU5"
+stGpfsUser = ""
+stGpfsPw = ""
 
 # sites
-siteCheckMk = "https://admin:SnitMern6@omd.techsquare.com/satori/check_mk/index.py?start_url=%2Fsatori%2Fcheck_mk%2Fdashboard.py"
-siteNoc = "http://172.30.100.217/satori/"
-siteGPFS = "https://@172.16.100.113/"
+siteCheckMk = ""
+siteNoc = ""
+siteGPFS = ""
 
 # chrome instance
 # adjust size, ignore ssl & certificate errors
